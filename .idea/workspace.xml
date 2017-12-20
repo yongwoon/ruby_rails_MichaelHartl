@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42fcb61-dded-4089-bceb-9f5d329dd991" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,31 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="micropost.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20171220024859_create_microposts.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20171220024859_create_microposts.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -109,11 +88,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="251" column="1" lean-forward="false" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -158,7 +157,6 @@
         <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/users_edit_test.rb" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/integration/users_index_test.rb" />
@@ -168,7 +166,6 @@
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_login_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20171220015838_add_activation_to_users.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
@@ -200,6 +197,8 @@
         <option value="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
       </list>
     </option>
   </component>
@@ -256,6 +255,19 @@
               <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
               <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
@@ -341,7 +353,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="microposts.y&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/microposts.yml&#10;user.r&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/app/models/user.rb&#10;routes&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/config/routes.rb&#10;user.yml&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/users.yml&#10;seed&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/db/seeds.rb&#10;users.yml&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/users.yml&#10;users.yl&#9;null&#9;null&#10;gemfile&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/Gemfile&#10;users.y&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/users.yml&#10;testhelper&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/test_helper.rb&#10;user.rb&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/app/models/user.rb&#10;sess&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/app/helpers/sessions_helper.rb&#10;testhelp&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/test_helper.rb&#10;routes.r&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="seed&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/db/seeds.rb&#10;microposts.y&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/microposts.yml&#10;user.r&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/app/models/user.rb&#10;routes&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/config/routes.rb&#10;user.yml&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/users.yml&#10;users.yml&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/users.yml&#10;users.yl&#9;null&#9;null&#10;gemfile&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/Gemfile&#10;users.y&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/fixtures/users.yml&#10;testhelper&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/test_helper.rb&#10;user.rb&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/app/models/user.rb&#10;sess&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/app/helpers/sessions_helper.rb&#10;testhelp&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/test/test_helper.rb&#10;routes.r&#9;FILE&#9;file:///Users/z.yonun.kim/Desktop/yongwoon/source/00_private/ruby/michael_hartl/config/routes.rb" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -499,12 +511,12 @@
       <updated>1513673493718</updated>
       <workItem from="1513673495115" duration="2309000" />
       <workItem from="1513675867685" duration="767000" />
-      <workItem from="1513676867344" duration="11494000" />
+      <workItem from="1513676867344" duration="11554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14570000" />
+    <option name="totallyTimeSpent" value="14630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1482" y="93" width="994" height="1107" extended-state="0" />
@@ -617,14 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="204" column="1" lean-forward="false" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -693,14 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -955,8 +951,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="251" column="1" lean-forward="false" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
           <folding />
         </state>
       </provider>
