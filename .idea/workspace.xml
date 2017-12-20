@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f42fcb61-dded-4089-bceb-9f5d329dd991" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/models/micropost.rb" afterPath="$PROJECT_DIR$/app/models/micropost.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/micropost_test.rb" afterPath="$PROJECT_DIR$/test/models/micropost_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,21 +37,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="micropost.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="micropost.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20171220024859_create_microposts.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="20171220024859_create_microposts.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20171220024859_create_microposts.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="micropost_test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/models/micropost_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -81,16 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
               <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_mailer_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -146,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/puma.rb" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
@@ -197,6 +196,8 @@
         <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20171220024859_create_microposts.rb" />
+        <option value="$PROJECT_DIR$/test/models/micropost_test.rb" />
+        <option value="$PROJECT_DIR$/app/models/micropost.rb" />
       </list>
     </option>
   </component>
@@ -330,43 +331,6 @@
               <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
               <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="mailers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="michael_hartl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="mailers" type="462c0819:PsiDirectoryNode" />
-              <item name="previews" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="michael_hartl" type="b2602c69:ProjectViewProjectNode" />
@@ -546,12 +510,12 @@
       <updated>1513673493718</updated>
       <workItem from="1513673495115" duration="2309000" />
       <workItem from="1513675867685" duration="767000" />
-      <workItem from="1513676867344" duration="11154000" />
+      <workItem from="1513676867344" duration="11223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14230000" />
+    <option name="totallyTimeSpent" value="14299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1482" y="93" width="994" height="1107" extended-state="0" />
@@ -599,16 +563,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -993,18 +947,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20171220024859_create_microposts.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/micropost_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
           <folding />
         </state>
       </provider>
