@@ -20,7 +20,7 @@ gem 'faker', '1.8.5'
 gem 'will_paginate', '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'carrierwave', '1.2.1'
-gem 'mini_magick', '4.8.0'
+gem 'mini_magick', '4.9.4'
 gem 'fog-aws', '2.0.0'
 gem 'nokogiri', '1.8.1'
 
