@@ -22,7 +22,7 @@ gem 'bootstrap-will_paginate', '1.0.0'
 gem 'carrierwave', '1.2.1'
 gem 'mini_magick', '4.8.0'
 gem 'fog-aws', '2.0.0'
-gem 'nokogiri', '1.8.1'
+gem 'nokogiri', '1.13.2'
 
 group :development, :test do
   gem 'byebug',  '9.1.0', platform: :mri
